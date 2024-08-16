@@ -1,0 +1,41 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    @media screen and (max-width:460px) {
+        padding: 10px 20px;
+    }
+}
+
+.footer{
+    div{
+        width: 100%;
+        max-width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img{
+        transition: '.3s';
+    }
+}
+
+.default{
+    width: 60px;
+    height: 60px;
+}
+
+.choice{
+    width: 70px;
+    height: 70px;
+}
+
+
+

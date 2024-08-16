@@ -1,0 +1,76 @@
+.section_1{
+    position: relative;
+    z-index: 1;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding-top: 30px;
+
+}
+
+
+.frame{
+    width: 530px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        color: #00ce9c;
+        font-family: "Electronic";
+        font-size: 15px;
+        text-align: center;
+        max-width: 90%;
+        line-height: 16px;
+        span{
+            color: #bd7111;
+        }
+    }
+}
+
+.connect_btn{
+    width: 160px;
+}
+
+
+
+// responsive 
+// 640px 
+@media screen and (max-width: 640px) {
+    .frame{
+        width: 350px;
+    }
+    
+    .connect_btn{
+        width: 120px;
+    }
+}
+
+// 458px 
+@media screen and (max-width: 458px) {
+    .frame{
+        width: 300px;
+    }
+
+    .connect_btn{
+        width: 100px;
+    }
+    
+}
